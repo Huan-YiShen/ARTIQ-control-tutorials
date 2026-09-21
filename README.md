@@ -25,7 +25,7 @@ Concretely, the following is an unordered list of concepts that you should aim t
 - Understand what are Sinara cards and "core devices" in ARTIQ, [official tutorial](https://m-labs.hk/artiq/manual/getting_started_core.html)
 - Understand how ARTIQ controls & communicates with these "core device"
 - Understand what goes into setting up an ARTIQ project [ARTIQ_project_structure](ARTIQ_project_structure/minmum-artiq-project.md)
-- Understand the structure of wirting *ARTIQ-python experiments scripts* 
+- Understand the structure of wirting *ARTIQ-python experiment scripts* 
 - Understand how to execute scripts with ARTIQ cmd commands [frontend_tools](https://m-labs.hk/artiq/manual/main_frontend_tools.html)
 - Understand how to incorperate external devices into ARTIQ with [NDSP](https://m-labs.hk/artiq/manual/developing_a_ndsp.html)
 
