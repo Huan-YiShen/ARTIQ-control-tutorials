@@ -2,7 +2,7 @@
 
 This page is a step-by-step tutorial for flashing the Sinara hardware system. Core reference is from the [manual](https://m-labs.hk/artiq/manual/flashing.html#writing-the-flash).
 
-This page is a continuation of [configure Sinara System](Flash_Kasli\configure_sinara_system.md). We assume you  have obtained the desried configuration binaries. There are three ways of flashing discussed on this page
+This page is a continuation of [configure Sinara System](configure_sinara_system.md). We assume you  have obtained the desried configuration binaries. There are three ways of flashing discussed on this page
 
 1. [Use OpenOCD and `artiq_flash`](#flashing-kasli), work with Kasli, not KasliSoC
 2. [Use SD card](#flashing-kaslisoc), work fo KasliSoC, not Kasli
