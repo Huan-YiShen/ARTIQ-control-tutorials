@@ -2,7 +2,7 @@
 
 This is a tutorial for configuring and re-configure your Sinara hardware system.
 
-Related tutorial: [flash Kasli and Kasli SOC](Flash_Kasli\flash_kasli_and_kasliSOC.md)
+Related tutorial: [flash Kasli and Kasli SOC](flash_kasli_and_kasliSOC.md)
 
 ## The Orchrastator - Kasli cards
 
