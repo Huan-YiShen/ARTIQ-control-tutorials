@@ -11,7 +11,9 @@ The Sinara hardware ecosystem conatins many different types of real-time input a
 The Kasli cards are FPGA-based controller cards used to manage and interface other Sinara cards using Eurocard Extension Modules (EEMs) standards. It is the entry point for ARTIQ to communicate with the rest of the hardware. For more technical detail, see [manual](https://m-labs.hk/artiq/manual/core_device.html#kasli-and-kasli-soc).
 
 An example of a Sinara hardware topology.
-![hardware_connectivity](hardware_connectivity.png)
+<p align="center">
+  <img src="hardware_connectivity.png" alt=hardware_connectivity" width="600">
+</p>
 
 Since Kasli is the interface between ARTIQ and the rest of the Sinara hardware, configure the hardware often means configuring the Kasli card. Since Kasli uses FPGA technology, configuring it physically means specifing the configuration in some type of hardware description language (HDL), complie it into a bitstream, and flashing the bit streram onto the FPGA chip. The rest of this page will to walk through this process in more detail.
 
