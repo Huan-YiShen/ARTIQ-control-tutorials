@@ -11,10 +11,9 @@ It includes two components: (1) custom ARTIQ-python experiment scripts that can 
 4. Any `ARTIQ-python experiment scripts` that one would execute on the Sinara hardware
 
 Setting up the physical Sinara hardware requires building the gateware to generate a bitstream and
-flashing the bitstream onto the Kasli FPGA boards. Using ARTIQ, one can define the connectivity
+flashing the bitstream onto the Kasli FPGA boards. Within ARTIQ, one can define the connectivity
 and configuration of your Sinara hardware in a JSON file and feed it through the ARTIQ gateware
-scripts to generate the bitstream. Then one can use either openOCD or over the network to flash
-the bit-stream on to the FPGA.
+scripts to generate the bitstream. Then one can flash the bit-stream on to the FPGA (for a step-by-step tutorial, see [Flash Kasli](../Flash_Kasli/configure_sinara_system.md))
 
 
 The `device_db.py` file acts similarly to the device tree files in embedded systems. It should match
