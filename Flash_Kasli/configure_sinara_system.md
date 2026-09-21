@@ -20,7 +20,7 @@ Since Kasli is the interface between ARTIQ and the rest of the Sinara hardware, 
 ## Configuration high level step-by-step
 
 0. Design your hardware topology and connec the physical devices
-1. Specify your hardware configuration and connectivity in a JSON file following the [core-device-schema](artiq/coredevice/coredevice_generic.schema.json)
+1. Specify your hardware configuration and connectivity in a JSON file following the [core-device-schema](https://git.m-labs.hk/M-Labs/artiq/src/branch/master/artiq/coredevice/coredevice_generic.schema.json)
 2. Generate the gateware binary using the config JSON, [see ref1](https://m-labs.hk/artiq/manual/flashing.html#obtaining-board-binaries), and [ref2](https://git.m-labs.hk/M-Labs/artiq/src/branch/master/artiq/gateware/targets/kasli.py). This should provide you with a `device_db.py` file and set of binary files (binary files will vary depending on your target FPGA, KasliSoC vs. Kasli)
 3. Flash the binaries onto the Kasli cards [see flash Kasli and Kasli SOC](flash_kasli_and_kasliSOC.md)
 
