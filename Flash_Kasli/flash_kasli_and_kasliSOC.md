@@ -38,7 +38,7 @@ runtime.fbi
 bootloader.bin
 ```
 
-Procedure Summary:
+***Procedure Summary***
 
 1. Find the generated binary file from config JSON. For Kasli, it should contain the 4 files describes above
 2. Ensure OpenOCD is installed in your ARTIQ nix environment
@@ -53,7 +53,7 @@ Since the KasliSoC uses an **AMD Zynq-7000 SoC (XC7Z030)**, its flashing procedu
 
 Now `boot.bin` contains only the static firmware, so we need a way to specify all the unique, device-specific network and runtime settings. ARTIQ uses a plaint `config.txt` file for this purpose, [see ref](https://m-labs.hk/artiq/manual-beta/core_device.html#configuration-storage).
 
-Procedure Summary:
+***Procedure Summary***
 
 1. Find the generated binary file `boot.bin` from config JSON
 2. Create the `config.txt` file and set `ip=` field to what is written in your `device_db.py` (`device_db.py` should also be generated when you generate your binary from the config JSON)
