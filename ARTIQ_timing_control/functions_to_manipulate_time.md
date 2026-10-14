@@ -11,10 +11,10 @@ Sinara being a real-time system gives fine grain control of instruction scheduli
 | Action | Functions & Descriptions |
 | :--- | :--- |
 | To read the time cursor |`now_mu()` |
-| To update the time cursor |`at_mu()` - set to a specific time value<br>`delay()` - increase cursor by a given amount |
+| To update the time cursor |`at_mu()` - set to a specific time value<br>`delay()` and `delay_mu()` - increase cursor by a given amount |
 | To read the wall clock | `self.core.get_rtio_counter_mu()` |
 | To reference the two clocks | `self.core.wait_until_mu()` - progress wall clock to catch up to time cursor<br>`self.core.break_realtime()` - set time cursor to > (125000 + wall clock)<br>`self.core.reset()` - init and set time cursor to = (125000 + wall clock) |
-
+| Helper functions | `self.core.mu_to_seconds()`<br>`self.core.mu_to_seconds()`|
 
 ## Appendix: List of functions to manipulate time
 
