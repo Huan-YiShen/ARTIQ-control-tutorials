@@ -2,7 +2,14 @@
 
 This page is a step-by-step tutorial for flashing the Sinara hardware system. Core reference is from the [manual](https://m-labs.hk/artiq/manual/flashing.html#writing-the-flash).
 
-This page is a continuation of [configure Sinara System](configure_sinara_system.md). We assume you  have obtained the desried configuration binaries. There are three ways of flashing discussed on this page
+
+## Overview
+This page is a continuation of [configure Sinara System](configure_sinara_system.md). As mentioned previously, if you do not have a binary to flash or wishes to generate a new binary with your system description JSON. There are 2 methods
+1. Setup the `afws_client` utility with the vendor (see [instruction](https://m-labs.hk/artiq/manual/flashing.html#obtaining-board-binaries))
+2. Perform a build yourself following these [instructions](https://m-labs.hk/artiq/manual/building_developing.html#building-artiq), and generate the `device_db.py` using this [script](https://git.m-labs.hk/M-Labs/artiq/src/branch/master/artiq/gateware/targets/kasli.py).
+
+
+Once you obtained your binary. There are three ways of flashing discussed on this page
 
 1. [Use OpenOCD and `artiq_flash`](#flashing-kasli), work with Kasli, not KasliSoC
 2. [Use SD card](#flashing-kaslisoc), work fo KasliSoC, not Kasli
